@@ -1,0 +1,16 @@
+/* Write your code here. */
+.emojis-list-conatiner {
+  padding-top: 30px;
+  padding-left: 25px;
+  background-color: #9796f0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+@media screen and (min-width: 576px) {
+  .game-container {
+    width: 50%;
+  }
+}

@@ -1,0 +1,45 @@
+/* Write your code here. */
+.navbar-container {
+  background-color: #9796f0;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-image {
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-image {
+    width: 55px;
+    height: 55px;
+  }
+  .logo-name {
+    margin-top: 30px;
+  }
+}
+
+.logo-name {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+  margin-left: 15px;
+}
+.score-conatiner {
+  display: flex;
+  margin-top: 10px;
+}
+.score {
+  color: white;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.top-score {
+  color: white;
+  font-size: 15px;
+  margin-right: 10px;
+}
